@@ -1,3 +1,4 @@
+// script.js
 document.addEventListener('DOMContentLoaded', function() {
     const loginForm = document.getElementById('loginForm');
     const errorMessage = document.getElementById('errorMessage');
@@ -8,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const codigo = document.getElementById('codigo').value;
       const password = document.getElementById('password').value;
   
-      
+      // Lista de usuarios permitidos
       const allowedUsers = [
         {"codigo":"1151158","nombre":"Roa Moros Brahiam Daniel","email":"brahiamdanielrm@ufps.edu.co","clave":"2w7RjL"},
         {"codigo":"1151358","nombre":"Rodriguez Gomez Dairo Javier","email":"dairojavierrg@ufps.edu.co","clave":"fHx3Zm"},
